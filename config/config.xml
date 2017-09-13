@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<configure>
+    <excel excelPath="..\..\Gamedata\Config"/>
+    <keylist>
+        <record table="playertitle" column="name" key="id"/>
+        <record table="item" column="name" key="id"/>
+        <record table="equip" column="name" key="id"/>
+        <record table="clone_map" column="duplicate_name" key="id"/>
+        <record table="jjcrobot" column="name" key="robotID"/>
+        <record table="main_task" column="task_name" key="task_id"/>
+        <record table="mapsetting" column="name" key="map_id"/>
+        <record table="monster" column="name" key="id"/>
+        <record table="pet" column="name" key="id"/>
+        <record table="special_monster" column="monster_name" key="ID"/>
+        <record table="marriage_dinner" column="name" key="level"/>
+        <record table="serverstr" column="str" key="id"/>
+        <record table="city_war" column="name" key="id"/>
+        <record table="wangfu_official" column="name" key="level"/>
+        <record table="marriage_zodiac" column="name" key="level"/>
+        <record table="mastereightcircle" column="name" key="level"/>
+        <record table="playertitle_rune" column="name" key="id"/>
+        <record table="cloak_advanced" column="name" key="layer"/>
+        <record table="dragoon" column="name" key="id"/>
+        <record table="mythical" column="name" key="id"/>
+        <record table="fashion" column="name" key="id"/>
+        <record table="npc" column="name" key="id"/>
+        <record table="elves_advanced" column="name" key="layer"/>
+        <record table="elves_rune" column="name" key="ID"/>
+        <record table="camp" column="name" key="id"/>
+        <record table="militaryrankcamp1" column="camp_name" key="id"/>
+        <record table="militaryrankcamp2" column="camp_name" key="id"/>
+        <record table="fashionstar" column="name" key="layer"/>
+        <record table="horse_up" column="name" key="layer"/>
+        <record table="horse_mythical" column="name" key="id"/>
+        <record table="functionstart" column="id_code" key="function_id"/>
+        <record table="guild_question" column="describe" key="id"/>
+        <record table="guild_question" column="answer_1" key="id"/>
+        <record table="guild_question" column="answer_2" key="id"/>
+        <record table="guild_question" column="answer_3" key="id"/>
+        <record table="guild_question" column="answer_4" key="id"/>
+        <record table="redpacket" column="name" key="id"/>
+        <record table="bosshome" column="monster_name" key="ID"/>
+        <record table="task_battlefield" column="name" key="id"/>
+        <record table="server_world_question" column="describe" key="id"/>
+        <record table="server_world_question" column="answer_1" key="id"/>
+        <record table="server_world_question" column="answer_2" key="id"/>
+        <record table="server_world_question" column="answer_3" key="id"/>
+        <record table="server_world_question" column="answer_4" key="id"/>
+    </keylist>
+    <project path="../../server/GameServer/config/lang"/>
+    <file langFile="language_ros.properties;language_Thailand.properties;language_tw.properties;language_yn.properties;language_kor.properties"/>
+</configure>
